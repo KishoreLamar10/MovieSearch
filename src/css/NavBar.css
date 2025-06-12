@@ -1,0 +1,47 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  height: 50px;
+  background-color: #141414;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
+}
+
+.navbar-brand a {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #e50914;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0.5px;
+  margin-right: 2rem;
+}
+
+
+
+.navbar-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.navbar-links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.navbar-links a:hover {
+  color: #e50914;
+}
+
+.main-content {
+  padding-top: 80px;
+}
