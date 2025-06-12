@@ -1,12 +1,59 @@
-# React + Vite
+# 🎬 Movie Search Engine App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React application to browse and search movies using The Movie Database (TMDB) API.  
+Built as part of my personal portfolio to showcase React, API integration, and UI/UX skills.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+👉 [View the app here](https://your-vercel-deployment-url.vercel.app)  
+_(replace this link after you deploy on Vercel)_
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✅ Browse popular movies  
+✅ Search for movies by title  
+✅ View detailed movie information (overview, genres, runtime, language, rating)  
+✅ Add movies to **Favorites** → saved with localStorage → persists after refresh  
+✅ Responsive design → works on desktop and mobile  
+✅ Pagination → Load More movies  
+✅ Animated loading spinner  
+✅ Clean and modern UI  
+✅ Deployed on Vercel
+
+## 🖼️ Screenshots
+
+### Home Page
+
+![Home Page](screenshot-home.png)
+
+### Movie Details Page
+
+![Movie Details](screenshot-details.png)
+
+### Favorites Page
+
+![Favorites](screenshot-favorites.png)
+
+## 🛠️ Tech Stack
+
+- React.js (Hooks, Context API)
+- React Router DOM
+- TMDB API
+- CSS (custom + responsive grid)
+- GitHub + Vercel (Deployment)
+
+## 🏗️ How to Run Locally
+
+1. Clone this repo:
+
+````bash
+git clone https://github.com/YOUR_USERNAME/MovieSearch.git
+cd kishorekumar-movie-app
+
+
+2. Install Dependencies and Run the App:
+
+```bash
+npminstall
+npm run
+````
