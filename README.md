@@ -5,7 +5,7 @@ Built as part of my personal portfolio to showcase React, API integration, and U
 
 ## 🚀 Live Demo
 
-👉 [View the app here](https://your-vercel-deployment-url.vercel.app)  
+👉 [View the app here]((https://movie-search-theta-lemon.vercel.app/))  
 _(replace this link after you deploy on Vercel)_
 
 ## ✨ Features
