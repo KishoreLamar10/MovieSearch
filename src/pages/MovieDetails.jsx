@@ -47,7 +47,7 @@ function MovieDetails() {
 
       <div className="movie-details-section">
         <h2>Rating</h2>
-        <p>{movie.vote_average}</p>
+        <p>{movie.vote_average ? movie.vote_average.toFixed(1) : "N/A"} ⭐</p>
       </div>
 
       <div className="movie-details-section">
