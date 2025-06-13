@@ -64,7 +64,7 @@
 
 .loading-spinner {
   border: 8px solid #f3f3f3;
-  border-top: 8px solid #ff4500; /* Orange or you can change color */
+  border-top: 8px solid #ff4500;
   border-radius: 50%;
   width: 60px;
   height: 60px;
