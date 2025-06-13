@@ -1,10 +1,17 @@
+.home,
+.favorites,
+.movie-details {
+  background-color: #181818;
+  min-height: 100vh;
+}
+
 .movie-details {
   max-width: 900px;
   margin: 40px auto;
   padding: 20px;
   text-align: center;
   font-family: 'Arial', sans-serif;
-  color: #f0f0f0; /* light text for dark background */
+  color: #f0f0f0;
 }
 
 .back-button {
@@ -62,7 +69,7 @@
 
 .loading-spinner {
   border: 8px solid #f3f3f3;
-  border-top: 8px solid #ff4500; /* Orange or you can change color */
+  border-top: 8px solid #ff4500;
   border-radius: 50%;
   width: 60px;
   height: 60px;
