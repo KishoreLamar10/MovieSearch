@@ -1,4 +1,4 @@
-const API_KEY = "d97ccbc14701fd13eb981cb1793437a0";
+const API_KEY = import.meta.env.VITE_TMDB_API_KEY;
 const BASE_URL = "https://api.themoviedb.org/3";
 
 export const fetchMovies = async (page = 1) => {
